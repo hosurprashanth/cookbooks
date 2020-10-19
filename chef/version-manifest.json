@@ -1,0 +1,225 @@
+{
+  "manifest_format": 2,
+  "software": {
+    "preparation": {
+      "locked_version": "1.0.0",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.0.0",
+      "license": "project_license"
+    },
+    "zlib": {
+      "locked_version": "1.2.11",
+      "locked_source": {
+        "sha256": "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1",
+        "url": "https://zlib.net/fossils/zlib-1.2.11.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.2.11",
+      "license": "Zlib"
+    },
+    "cacerts": {
+      "locked_version": "2019-10-16",
+      "locked_source": {
+        "url": "https://curl.haxx.se/ca/cacert-2019-10-16.pem",
+        "sha256": "5cd8052fcf548ba7e08899d8458a32942bf70450c9af67a0850b4c711804a2e4"
+      },
+      "source_type": "url",
+      "described_version": "2019-10-16",
+      "license": "MPL-2.0"
+    },
+    "openssl": {
+      "locked_version": "1.0.2u",
+      "locked_source": {
+        "url": "https://www.openssl.org/source/openssl-1.0.2u.tar.gz",
+        "extract": "lax_tar",
+        "sha256": "ecd0c6ffb493dd06707d38b14bb4d8c2288bb7033735606569d8f90f89669d16"
+      },
+      "source_type": "url",
+      "described_version": "1.0.2u",
+      "license": "OpenSSL"
+    },
+    "libffi": {
+      "locked_version": "3.2.1",
+      "locked_source": {
+        "md5": "83b89587607e3eb65c70d361f13bab43",
+        "url": "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "3.2.1",
+      "license": "MIT"
+    },
+    "config_guess": {
+      "locked_version": "84f04b02a7e2fc8eaa9d52deee5f6d57b06fe447",
+      "locked_source": {
+        "git": "https://github.com/chef/config-mirror.git"
+      },
+      "source_type": "git",
+      "described_version": "master",
+      "license": "GPL-3.0 (with exception)"
+    },
+    "libyaml": {
+      "locked_version": "0.1.7",
+      "locked_source": {
+        "sha256": "8088e457264a98ba451a90b8661fcb4f9d6f478f7265d48322a196cec2480729",
+        "url": "https://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "0.1.7",
+      "license": "MIT"
+    },
+    "ruby": {
+      "locked_version": "2.5.8",
+      "locked_source": {
+        "sha256": "6c0bdf07876c69811a9e7dc237c43d40b1cb6369f68e0e17953d7279b524ad9a",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.8.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.5.8",
+      "license": "BSD-2-Clause"
+    },
+    "rubygems": {
+      "locked_version": "2.7.9",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "2.7.9",
+      "license": "MIT"
+    },
+    "bundler": {
+      "locked_version": "1.16.6",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.16.6",
+      "license": "MIT"
+    },
+    "ohai": {
+      "locked_version": "4d4bdbc18e7232d7d8e51c10b6ab6d45b55a67e8",
+      "locked_source": {
+        "git": "https://github.com/chef/ohai.git"
+      },
+      "source_type": "git",
+      "described_version": "v14.15.0",
+      "license": "Apache-2.0"
+    },
+    "appbundler": {
+      "locked_version": "d2a4a3f2569bdb3977f9ef9172656ecffb9aaa1d",
+      "locked_source": {
+        "git": "https://github.com/chef/appbundler.git"
+      },
+      "source_type": "git",
+      "described_version": "master",
+      "license": "Apache-2.0"
+    },
+    "liblzma": {
+      "locked_version": "5.2.4",
+      "locked_source": {
+        "sha256": "b512f3b726d3b37b6dc4c8570e137b9311e7552e8ccbab4d39d47ce5f4177145",
+        "url": "http://tukaani.org/xz/xz-5.2.4.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "5.2.4",
+      "license": "Public-Domain"
+    },
+    "libxml2": {
+      "locked_version": "2.9.10",
+      "locked_source": {
+        "sha256": "aafee193ffb8fe0c82d4afef6ef91972cbaf5feea100edc2f262750611b4be1f",
+        "url": "ftp://xmlsoft.org/libxml2/libxml2-2.9.10.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.9.10",
+      "license": "MIT"
+    },
+    "bzip2": {
+      "locked_version": "1.0.8",
+      "locked_source": {
+        "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+        "url": "https://fossies.org/linux/misc/bzip2-1.0.8.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.0.8",
+      "license": "BSD-2-Clause"
+    },
+    "libarchive": {
+      "locked_version": "3.4.2",
+      "locked_source": {
+        "sha256": "b60d58d12632ecf1e8fad7316dc82c6b9738a35625746b47ecdcaf4aed176176",
+        "url": "http://www.libarchive.org/downloads/libarchive-3.4.2.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "3.4.2",
+      "license": "BSD-2-Clause"
+    },
+    "libxslt": {
+      "locked_version": "1.1.34",
+      "locked_source": {
+        "sha256": "98b1bd46d6792925ad2dfe9a87452ea2adebf69dcb9919ffd55bf926a7f93f7f",
+        "url": "ftp://xmlsoft.org/libxml2/libxslt-1.1.34.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.1.34",
+      "license": "MIT"
+    },
+    "chef": {
+      "locked_version": "local_source",
+      "locked_source": {
+        "path": "/var/lib/buildkite-agent/builds/omnibus-ubuntu-1604-x86-64-prod-i-07d88cb984318b2b1-1/chef/chef-chef-chef-14-omnibus-release/omnibus/files/../..",
+        "options": {
+          "exclude": [
+            "omnibus/vendor"
+          ]
+        }
+      },
+      "source_type": "path",
+      "described_version": "local_source",
+      "license": "Apache-2.0"
+    },
+    "nokogiri": {
+      "locked_version": "1.10.9",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.10.9",
+      "license": "MIT"
+    },
+    "gem-permissions": {
+      "locked_version": "0.0.1",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.1",
+      "license": "project_license"
+    },
+    "shebang-cleanup": {
+      "locked_version": "0.0.2",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.2",
+      "license": "project_license"
+    },
+    "version-manifest": {
+      "locked_version": "0.0.1",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.1",
+      "license": "project_license"
+    },
+    "openssl-customization": {
+      "locked_version": null,
+      "locked_source": {
+        "path": "/var/lib/buildkite-agent/builds/omnibus-ubuntu-1604-x86-64-prod-i-07d88cb984318b2b1-1/chef/chef-chef-chef-14-omnibus-release/omnibus/files/openssl-customization"
+      },
+      "source_type": "path",
+      "described_version": null,
+      "license": "project_license"
+    },
+    "ruby-cleanup": {
+      "locked_version": "1.0.0",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.0.0",
+      "license": "project_license"
+    }
+  },
+  "build_version": "14.15.6",
+  "build_git_revision": "dfb3c58209c9306d8b6c7976259f29faeb0dc62d",
+  "license": "Apache-2.0"
+}
